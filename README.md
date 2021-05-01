@@ -13,12 +13,29 @@ I wrote about yolov3 in korean. <br>
 이미지 안의 객체를 제대로 인식하는 모습을 보여줍니다.
 
 ### Video
-first, download yolo.weights from [here](https://pjreddie.com/media/files/yolov3.weights)
+first, download yolov3.weights from [here](https://pjreddie.com/media/files/yolov3.weights)
 code link: https://github.com/iArunava/YOLOv3-Object-Detection-with-OpenCV
+second, locate yolov3 weights in yolov3-coco
 
 `code link`에서의 지시사항을 그대로 따르면 됩니다.
 그 전에, yolo.weights를 다운로드 받아야 합니다.
 위의 링크를 참고해주시면 감사하겠습니다.
+
+#### Directory Structure
+```
+| LICENSE
+| __pycache__
+|   ㄴ yolo_utils.cpython-37.pyc
+| README.md
+| yolo_utils.py
+| yolo.py
+ㄴ yolov3-coco
+  ㄴ coco-labels
+  ㄴ coco.names
+  ㄴ get_model.sh
+  ㄴ yolov3.cfg
+  ㄴ yolov3.weights
+```
 
 #### Video Result
 명령행 옵션을 사용하지 않는다면 아래와 같이 웹캠에서 실시간으로 객체 인식이 진행됩니다.
