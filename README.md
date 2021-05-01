@@ -5,7 +5,7 @@ If you read post from [here](https://medium.com/analytics-vidhya/object-detectio
 You can understand yolov3 code.
 
 In this 'image' directory,
-I wrote about yolov3 in korean.
+I wrote about yolov3 in korean. <br>
 (image디렉토리의 ipynb파일에서 코드에 대한 기능 및 설명을 간단하게 작성해놓았습니다)
 
 #### Image Result
