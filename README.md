@@ -25,16 +25,16 @@ second, locate yolov3 weights in yolov3-coco
 ```
 | LICENSE
 | __pycache__
-|   ㄴ yolo_utils.cpython-37.pyc
+|   └─ yolo_utils.cpython-37.pyc
 | README.md
 | yolo_utils.py
 | yolo.py
-ㄴ yolov3-coco
-  ㄴ coco-labels
-  ㄴ coco.names
-  ㄴ get_model.sh
-  ㄴ yolov3.cfg
-  ㄴ yolov3.weights
+└── yolov3-coco
+  ├─ coco-labels
+  ├─ coco.names
+  ├─ get_model.sh
+  ├─ yolov3.cfg
+  └─ yolov3.weights
 ```
 
 #### Video Result
